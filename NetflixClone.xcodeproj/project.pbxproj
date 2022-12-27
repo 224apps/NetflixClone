@@ -13,6 +13,10 @@
 		45C9F95C295AD52400E33DA6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45C9F95B295AD52400E33DA6 /* Preview Assets.xcassets */; };
 		45C9F96B295AE3D100E33DA6 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 45C9F96A295AE3D100E33DA6 /* Kingfisher */; };
 		45C9F96D295AE6E100E33DA6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C9F96C295AE6E100E33DA6 /* HomeView.swift */; };
+		45C9F96F295AE73A00E33DA6 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C9F96E295AE73A00E33DA6 /* Movie.swift */; };
+		45C9F971295AE77E00E33DA6 /* StandardHomeMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C9F970295AE77E00E33DA6 /* StandardHomeMovie.swift */; };
+		45C9F973295AE7BB00E33DA6 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C9F972295AE7BB00E33DA6 /* Helpers.swift */; };
+		45C9F975295AEA7800E33DA6 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C9F974295AEA7800E33DA6 /* HomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		45C9F958295AD52400E33DA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		45C9F95B295AD52400E33DA6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		45C9F96C295AE6E100E33DA6 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		45C9F96E295AE73A00E33DA6 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		45C9F970295AE77E00E33DA6 /* StandardHomeMovie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardHomeMovie.swift; sourceTree = "<group>"; };
+		45C9F972295AE7BB00E33DA6 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		45C9F974295AEA7800E33DA6 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,9 @@
 				45C9F958295AD52400E33DA6 /* Assets.xcassets */,
 				45C9F95A295AD52400E33DA6 /* Preview Content */,
 				45C9F96C295AE6E100E33DA6 /* HomeView.swift */,
+				45C9F96E295AE73A00E33DA6 /* Movie.swift */,
+				45C9F972295AE7BB00E33DA6 /* Helpers.swift */,
+				45C9F974295AEA7800E33DA6 /* HomeViewModel.swift */,
 			);
 			path = NetflixClone;
 			sourceTree = "<group>";
@@ -68,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				45C9F95B295AD52400E33DA6 /* Preview Assets.xcassets */,
+				45C9F970295AE77E00E33DA6 /* StandardHomeMovie.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -149,7 +161,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				45C9F96D295AE6E100E33DA6 /* HomeView.swift in Sources */,
+				45C9F973295AE7BB00E33DA6 /* Helpers.swift in Sources */,
+				45C9F975295AEA7800E33DA6 /* HomeViewModel.swift in Sources */,
 				45C9F957295AD52200E33DA6 /* ContentView.swift in Sources */,
+				45C9F971295AE77E00E33DA6 /* StandardHomeMovie.swift in Sources */,
+				45C9F96F295AE73A00E33DA6 /* Movie.swift in Sources */,
 				45C9F955295AD52200E33DA6 /* NetflixCloneApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
